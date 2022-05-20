@@ -1,0 +1,247 @@
+
+	body{
+		background-color: #EFE7E3;
+	}	
+	
+	.frame{
+		margin: 30px 150px;
+		display flex;
+		flex-direction: columns;
+	}	
+	
+	/*navigator*/
+	
+	.navigator{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	li{	
+		display: inline;
+		align-self: center;
+		margin:0;
+		margin-left: 15px;
+	}	
+	
+	ul{
+	margin:0;
+	}
+	
+	.site-name{
+		margin:0;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		color: #C2B4AB;
+	}	
+	
+	.nav-menu{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 13px;
+	}
+	
+	a{
+		color: grey;
+		text-decoration: none;
+	}	
+	
+	a:hover{
+		color: white;
+		transition: 0.3s;
+	}	
+
+	/*dashboard*/
+	
+	.dashboard{
+		display: flex;
+		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'Murecho', sans-serif;
+		margin-top: 110px;
+		}
+	
+	.japanese-comment{
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'Murecho', sans-serif;
+		font-weight: 300;
+		font-size: 25px;
+	}	
+	
+		
+	.sample:hover{
+		background-color: #C2B4AB;
+		color: white;
+		transition: none;
+		
+		}
+	
+	.highlight:hover{
+		background-color: #C2B4AB;
+		transition: none;
+	}	
+	
+	.english-comment{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		font-style: italic;
+		
+		letter-spacing: -0.3px;
+	}
+	
+	/*recent works*/
+	
+	.recent-menu{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	weight: 700;
+	color: #C2B4AB;
+	
+	text-align: right;
+	margin-top: 100px;
+	}
+	
+	
+	/*footer*/
+	
+	.footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 150px
+	}	
+	
+	.welcome{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		font-seight: 700;
+		color:#856f62;
+		margin-bottom: 25px;
+		
+	}
+	
+	.links>a{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		font-weight: 700;
+		margin-left: 15px;
+		text-decoration: underline;
+	}	
+	
+	.footer>p{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 100;
+		font-size: 12px;
+		font-style: italic;
+		margin: 0;
+		margin-top: 5px;	
+	}
+	
+	/*INFO section*/
+	
+	
+	/*profile-section*/
+	
+	.profile-section{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		
+		margin: 100px 100px;
+	}
+	
+	#profile-picture{
+		width: 400px;
+		border: 2px solid #C2B4AB;
+	 	border-radius: 20px;
+		margin-right: 60px;
+	}	
+		
+	.introduction>h2{
+		margin: 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 35px;
+		font-weight: 1000;
+	}
+	
+	.introduction1>p{
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'Murecho', sans-serif;
+		font-weight: 300;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}	
+	
+	
+	
+	/*love-menu*/
+	
+	.love-menu{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 35px;
+		margin: 30px 100px;
+	}
+	
+	.love-section{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: center;
+		margin: 100px 150px;
+		margin-top: 20px;
+	}
+	
+	.love{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 40px;
+		align-items: center;
+	}
+	
+	.love-icon{
+	 	width: 150px;
+	 	height: 150px;
+	 	border: 2px solid #C2B4AB;
+	 	border-radius: 100px;
+	 }	
+	
+	.love-intro{
+		margin-left:30px;
+	}	
+	
+	.love-name{
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'Murecho', sans-serif;
+		font-weight: 700px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	
+	.love-exp{
+		font-family: 'Montserrat', sans-serif;
+		font-family: 'Murecho', sans-serif;
+		font-size: 16px;
+		margin: 0px;
+	}
+	
+	/*footer-section*/
+	
+	.footer-comment{
+		text-align: center;
+	}
+	
+	a[title-"Freepik"]:hover{
+		color: black;
+		text-decoration: underline;
+	}	
+	
+	
+	a[title-"Flaticon"]:hover{
+		color: black;
+		text-decoration: underline;
+	}	
+	
+	
+	
